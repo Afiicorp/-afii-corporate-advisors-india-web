@@ -269,3 +269,12 @@ label.v5-cookie-category{cursor:pointer}
 .v5-cookie-foot a:hover{color:#0b2a45}
 @media(max-width:700px){.v5-cookie-layer{padding:0}.v5-cookie-layer-modal{padding:12px}.v5-cookie-panel{border-radius:16px 16px 0 0;padding:22px 20px 18px;max-height:90dvh}.v5-cookie-panel.is-preferences{border-radius:12px;max-height:calc(100dvh - 24px);padding:22px 19px}.v5-cookie-heading h2{font-size:26px}.v5-cookie-actions{display:grid;grid-template-columns:1fr;gap:9px}.v5-cookie-button{width:100%}.v5-cookie-foot{align-items:start}.v5-cookie-category{padding:15px 13px;gap:11px}.v5-cookie-category p{font-size:12.5px}.v5-cookie-essential{font-size:10.5px;padding:7px 8px}}
 @media(prefers-reduced-motion:reduce){.v5-nav-dropdown .v5-dropdown-links a,.v5-cookie-button,.v5-switch>span,.v5-switch>span:before{transition:none!important}}
+
+/* V6 — transaction gallery and location links */
+.v6-gallery-link{display:flex;align-items:center;justify-content:space-between;gap:26px;margin-top:58px;padding:26px 0;border-top:1px solid #dee6eb}
+.v6-gallery-link h2{font-size:clamp(22px,2.1vw,29px);line-height:1.2;margin:0 0 6px;color:#0d2948}
+.v6-gallery-link p{font-size:15px;color:#526476;margin:0;line-height:1.55}
+.v6-office-region{margin-top:auto;border-top:1px solid #edf1f4;padding-top:17px;color:#687988;font-size:13px}
+.v3-office-card-link:hover{text-decoration:underline;text-underline-offset:4px;color:#153e62}
+.v3-office-card-link:focus-visible{outline:2px solid #325d83;outline-offset:4px}
+@media(max-width:700px){.v6-gallery-link{display:block}.v6-gallery-link .v2-inline-link{display:inline-block;margin-top:14px}}

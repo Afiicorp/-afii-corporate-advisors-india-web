@@ -21,11 +21,11 @@ export const navItems = [
   { name: "People & Offices", href: "/offices" },
 ];
 export const services = [
-  {slug:"infrastructure-project-advisory",name:"Infrastructure Project Advisory",brief:"Project development, bid strategy and financing of infrastructure assets.",image:"/media/v3/service-infrastructure.jpg",origin:"https://www.afiicorp.com/bidadvisory/",intro:"AFII Corporate Advisors' Indian infrastructure practice has supported project development, commercial evaluation and coordination among public bodies, private developers and specialist firms. The published scope includes roads, railways, energy and urban infrastructure, with an emphasis on credible bid structures and viable implementation routes.",what:["Infrastructure project appraisal and development","PPP and concession approaches","Risk review before bidding","Project financial and commercial structuring","Institutional and technical partner coordination"]},
-  {slug:"structured-finance-investments",name:"Investments & Structured Finance",brief:"Project debt, mezzanine capital and investment structures for real assets.",image:"/media/v3/service-finance.jpg",origin:"https://www.afiicorp.com/",intro:"AFII's published history describes channeling mezzanine and debt investments in energy and transportation assets. The group has also worked on structured trade finance and tailored equity and debt approaches for infrastructure businesses. Any specific financing, investment or regulated activity depends on mandate, counterparty and local requirements.",what:["Project and infrastructure finance","Structured debt, mezzanine and equity solutions","Trade finance and liquidity structures","Refinancing and asset-backed finance","Capital structure reviews"]},
-  {slug:"project-incubation",name:"Project Incubation",brief:"Turning early-stage infrastructure proposals into structured opportunities.",image:"/media/v3/service-incubation.jpg",origin:"https://www.afiicorp.com/",intro:"AFII's original India website describes early-stage incubation across transportation, energy, wastewater and clean technology. It also describes working with global public enterprises and local stakeholders on Public–Public Partnership (PuP) initiatives in infrastructure.",what:["Project origination and concept development","Early-stage commercial evaluation","Public–Public Partnership (PuP) engagement","Stakeholder and institutional alignment","Partner identification and handover preparation"]},
-  {slug:"bid-consortium-advisory",name:"Bid & Consortium Advisory",brief:"Bringing complementary partners together for competitive project bids.",image:"/media/v3/service-bid.jpg",origin:"https://www.afiicorp.com/bidadvisory/",intro:"AFII describes supporting mid-cap construction businesses with global partner identification, PPP bid structuring and early risk identification. The objective is to evaluate commercial feasibility before commitments are made and bring relevant technical and financial capabilities to a bid.",what:["Bid strategy and qualification","Consortium partner selection","Commercial and risk review","PPP and concession positioning","Coordination across financial and technical teams"]},
-  {slug:"public-enterprise-partnerships",name:"Government & Public Enterprise Advisory",brief:"Cross-institutional coordination for public infrastructure programmes.",image:"/media/v3/service-public.jpg",origin:"https://www.afiicorp.com/about/",intro:"AFII's India experience includes engagement with international public enterprises, local governments and citizen stakeholders to develop infrastructure concepts. Published material highlights the PuP approach for projects with significant capital needs and long-term public-service impact.",what:["Government and public-enterprise collaboration","Project and procurement strategy","Public-institution stakeholder coordination","Programmatic infrastructure development","PPP and PuP structuring support"]}
+  {slug:"infrastructure-project-advisory",name:"Infrastructure Project Advisory",brief:"Project development, bid strategy and financing of infrastructure assets.",image:"/media/v3/service-infrastructure.jpg",intro:"AFII Corporate Advisors' Indian infrastructure practice has supported project development, commercial evaluation and coordination among public bodies, private developers and specialist firms. Our work encompasses roads, railways, energy and urban infrastructure, with an emphasis on credible bid structures and viable implementation routes.",what:["Infrastructure project appraisal and development","PPP and concession approaches","Risk review before bidding","Project financial and commercial structuring","Institutional and technical partner coordination"]},
+  {slug:"structured-finance-investments",name:"Investments & Structured Finance",brief:"Project debt, mezzanine capital and investment structures for real assets.",image:"/media/v3/service-finance.jpg",intro:"AFII has experience in mezzanine and debt investment structures for energy and transport assets. The group has also worked on structured trade finance and tailored equity and debt approaches for infrastructure businesses. Any specific financing, investment or regulated activity depends on mandate, counterparty and local requirements.",what:["Project and infrastructure finance","Structured debt, mezzanine and equity solutions","Trade finance and liquidity structures","Refinancing and asset-backed finance","Capital structure reviews"]},
+  {slug:"project-incubation",name:"Project Incubation",brief:"Turning early-stage infrastructure proposals into structured opportunities.",image:"/media/v3/service-incubation.jpg",intro:"AFII undertakes early-stage project incubation across transportation, energy, wastewater and clean technology. Our team works with global public enterprises and local stakeholders on Public–Public Partnership (PuP) initiatives in infrastructure.",what:["Project origination and concept development","Early-stage commercial evaluation","Public–Public Partnership (PuP) engagement","Stakeholder and institutional alignment","Partner identification and handover preparation"]},
+  {slug:"bid-consortium-advisory",name:"Bid & Consortium Advisory",brief:"Bringing complementary partners together for competitive project bids.",image:"/media/v3/service-bid.jpg",intro:"AFII supports mid-cap construction businesses with global partner identification, PPP bid structuring and early risk identification. The objective is to evaluate commercial feasibility before commitments are made and bring relevant technical and financial capabilities to a bid.",what:["Bid strategy and qualification","Consortium partner selection","Commercial and risk review","PPP and concession positioning","Coordination across financial and technical teams"]},
+  {slug:"public-enterprise-partnerships",name:"Government & Public Enterprise Advisory",brief:"Cross-institutional coordination for public infrastructure programmes.",image:"/media/v3/service-public.jpg",intro:"AFII's India experience includes collaboration with international public enterprises, local governments and citizen stakeholders to develop infrastructure concepts. The PuP approach supports collaboration for projects with significant capital needs and long-term public-service impact.",what:["Government and public-enterprise collaboration","Project and procurement strategy","Public-institution stakeholder coordination","Programmatic infrastructure development","PPP and PuP structuring support"]}
 ];
 export const industries = [
   {title:"Transport & Mobility",text:"Railways, metro, highways, airports, freight corridors and associated infrastructure.",image:"/media/v3/industry-transport.jpg",practice:"infrastructure-project-advisory"},
@@ -35,40 +35,40 @@ export const industries = [
   {title:"Urban Infrastructure",text:"Housing and real estate development, public facilities and municipal programmes.",image:"/media/v3/industry-urban.jpg",practice:"infrastructure-project-advisory"},
   {title:"Aviation & Logistics",text:"Specialised equipment, aircraft leasing and transportation-linked finance.",image:"/media/v3/industry-aviation.jpg",practice:"structured-finance-investments"},
 ];
-/** Group names and offices are from afiicapital.com published contact/group/team pages.
- * AFII.eu could not be independently inspected at packaging time. Do not imply all are one company.
- */
 export const groupCompanies = [
   {name:"AFII Corporate Advisors Limited",country:"India",city:"New Delhi",role:"India corporate & infrastructure advisory",url:"https://www.afiicorp.com/",kind:"India entity"},
   {name:"AFII Capital Partners Limited",country:"United Kingdom",city:"London",role:"Structured finance and international advisory",url:"https://afiicapital.com/",kind:"International firm"},
   {name:"AFII Structured Finance GmbH",country:"Germany",city:"Eschborn / Frankfurt",role:"Structured finance practice",url:"https://afiicapital.com/contact/",kind:"International firm"},
   {name:"AFII Middle East LLC FZ",country:"United Arab Emirates",city:"Dubai",role:"Middle East client and capital-market engagement",url:"https://afiicapital.com/contact/",kind:"International firm"},
 ];
-export const networkPresences = [
-  {place:"New Delhi",country:"India",detail:"AFII Corporate Advisors Limited · India representative office",contact:"K. Aakash · Representative Director; Vinit Vidyarthi · India Senior Advisor",address:"Madam Sara Mathew Lane, B 1/14, Safdarjung Enclave, New Delhi 110029",type:"India office"},
-  {place:"Mumbai",country:"India",detail:"Infrastructure advisory",contact:"Abhijit K. Avarsekar · India infrastructure contact",address:"The A-Club, Suite W4, One IndiaBulls, Tower 2A, 8th Floor, Lower Parel, Mumbai 400013",type:"India office"},
-  {place:"Frankfurt / Eschborn",country:"Germany",detail:"AFII Structured Finance GmbH",contact:"Dr. Mahesh M. Gandhi; Kirti Gulati · Managing Directors",address:"Alfred-Herrhausen-Allee 3–5, 65760 Eschborn",type:"International office"},
-  {place:"London",country:"United Kingdom",detail:"AFII Capital Partners Limited",contact:"Contact via AFII Capital",address:"124–128 City Road, London EC1V 2NX",type:"International office"},
-  {place:"Dubai",country:"United Arab Emirates",detail:"AFII Middle East LLC FZ · Meydan Free Zone",contact:"Kirti Gulati · Published business lead",address:"Meydan Free Zone, Dubai",type:"International office"},
-  {place:"Munich",country:"Germany",detail:"K3M and partners referenced in the public network",contact:"Johann Mair; Ralph Ketelhut · Published senior partner network",address:"Location/meeting details on request",type:"Partner network"},
-  {place:"Helsinki",country:"Finland",detail:"Regional business partner network",contact:"Jonathan Pallares · Published business partner",address:"Contact via AFII Capital",type:"Representative network"},
-  {place:"Tel Aviv",country:"Israel",detail:"Israel business contact",contact:"Rafi Peled · Published senior partner",address:"Contact via AFII Capital",type:"Representative network"},
-  {place:"Vietnam",country:"Vietnam",detail:"Far East business coverage",contact:"Nguyen Thi Thanh Nga · Published Vietnam business head",address:"Contact via AFII Capital",type:"Representative network"},
+export type NetworkPresence = {
+  place: string;
+  country: string;
+  detail: string;
+  contact: string;
+  address: string;
+  type: string;
+  mapAddress?: string;
+};
+export const networkPresences: NetworkPresence[] = [
+  {place:"New Delhi",country:"India",detail:"AFII Corporate Advisors Limited · India office",contact:"Vinit Vidyarthi · Head of India Business; K. Aakash · Representative Director",address:"Madam Sara Mathew Lane, B1/14 Safdarjung Enclave, New Delhi 110029, India",mapAddress:"B1/14 Safdarjung Enclave, New Delhi 110029, India",type:"India office"},
+  {place:"Mumbai",country:"India",detail:"Infrastructure advisory",contact:"Abhijit K. Avarsekar · Senior Advisor, Infrastructure",address:"The A-Club, Suite W4, One IndiaBulls, Tower 2A, 8th Floor, Lower Parel, Mumbai 400013, India",mapAddress:"One IndiaBulls Tower 2A, Lower Parel, Mumbai 400013, India",type:"India office"},
+  {place:"Frankfurt / Eschborn",country:"Germany",detail:"AFII Structured Finance GmbH",contact:"Dr. Mahesh M. Gandhi; Kirti Gulati",address:"Alfred-Herrhausen-Allee 3-5, 65760 Eschborn, Germany",mapAddress:"Alfred-Herrhausen-Allee 3-5, 65760 Eschborn, Germany",type:"International office"},
+  {place:"London",country:"United Kingdom",detail:"AFII Capital Partners Limited",contact:"AFII UK team",address:"Kemp House, 124-128 City Road, London EC1V 2NX, United Kingdom",mapAddress:"Kemp House, 124-128 City Road, London EC1V 2NX, UK",type:"International office"},
+  {place:"Zug",country:"Switzerland",detail:"International network",contact:"AFII international network",address:"Gotthardstrasse 14, 6300 Zug, Switzerland",mapAddress:"Gotthardstrasse 14, 6300 Zug, Switzerland",type:"International office"},
+  {place:"Dubai",country:"United Arab Emirates",detail:"AFII Middle East LLC FZ",contact:"Kirti Gulati",address:"Meydan Free Zone, Dubai, United Arab Emirates",mapAddress:"Meydan Free Zone, Dubai, UAE",type:"International office"},
+  {place:"Munich",country:"Germany",detail:"International partner network",contact:"Johann Mair; Ralph Ketelhut",address:"Munich, Germany",type:"Partner network"},
+  {place:"Helsinki",country:"Finland",detail:"Regional business partner network",contact:"Jonathan Pallares",address:"Helsinki, Finland",type:"Partner network"},
+  {place:"Tel Aviv",country:"Israel",detail:"Regional business network",contact:"Rafi Peled",address:"Tel Aviv, Israel",type:"Partner network"},
+  {place:"Vietnam",country:"Vietnam",detail:"Far East business network",contact:"Nguyen Thi Thanh Nga",address:"Vietnam",type:"Partner network"},
 ];
 export const people = [
-  {name:"K. Aakash",role:"Representative Director — India",place:"New Delhi",image:"/media/people/kumar-aakash.png",group:"India"},
-  {name:"Vinit Vidyarthi",role:"India Senior Advisor · Investment Banking",place:"New Delhi",image:"/media/people/vinit-vidyarthi.jpeg",group:"India"},
-  {name:"Punam Bhasin",role:"Director — AFII Corp (India)",place:"India",image:"/media/people/punam-bhasin.jpg",group:"India"},
+  {name:"Vinit Vidyarthi",role:"Head of India Business",place:"New Delhi",image:"/media/people/vinit-vidyarthi.jpeg",group:"India"},
   {name:"Abhijit K. Avarsekar",role:"Senior Advisor · Infrastructure",place:"Mumbai",image:"/media/people/abhijit-avar-sekar.png",group:"India"},
+  {name:"Punam Bhasin",role:"Director — AFII Corp (India)",place:"India",image:"/media/people/punam-bhasin.jpg",group:"India"},
+  {name:"K. Aakash",role:"Representative Director — India",place:"New Delhi",image:"/media/people/kumar-aakash.png",group:"India"},
   {name:"Dr. Mahesh M. Gandhi",role:"Managing Director & President",place:"Frankfurt",image:"/media/people/mahesh-gandhi.png",group:"International network"},
   {name:"Kirti Gulati",role:"Managing Director & Vice President",place:"Frankfurt / UAE",image:"/media/people/kirti-gulati.jpg",group:"International network"},
   {name:"Sidhartha S. Gandhi",role:"Government Advisory & Infrastructure Development",place:"India",image:"/media/people/sidhartha-gandhi.jpeg",group:"International network"},
   {name:"Nguyen Thi Thanh Nga",role:"Vietnam business lead",place:"Vietnam",image:"/media/people/nguyen-thi-thanh-nga.png",group:"International network"},
-];
-export const sourceLinks = [
-  {title:"AFII Corporate Advisors original website",href:"https://www.afiicorp.com/"},
-  {title:"AFII Corporate Advisors background",href:"https://www.afiicorp.com/about/"},
-  {title:"AFII Capital — Group and entities",href:"https://afiicapital.com/"},
-  {title:"AFII Capital — Offices",href:"https://afiicapital.com/contact/"},
-  {title:"AFII Capital — Published team",href:"https://afiicapital.com/team/"},
 ];

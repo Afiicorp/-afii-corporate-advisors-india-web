@@ -5,7 +5,7 @@ export const metadata: Metadata = { title: "About AFII Corporate Advisors", desc
 const milestones = [
  { year: "1996", title: "The foundation", text: "AFII was founded to manage proprietary investments and establish its investment-management activities." },
  { year: "2001", title: "Expansion into advisory", text: "The firm reorganised to provide infrastructure and real estate financial advisory services." },
- { year: "Today", title: "India and international advisory", text: "From New Delhi, AFII Corporate Advisors works with public enterprises, developers and financial institutions across infrastructure and investment activities." }
+ { year: "Today", title: "India and international advisory", text: "AFII Corporate Advisors works with public enterprises, developers and financial institutions across infrastructure and investment activities from its India base in New Delhi." }
 ];
 export default function About() { return <>
  <section className="v2-page-hero v2-page-hero-light"><div className="shell"><h1>About AFII Corporate Advisors</h1><p>Infrastructure incubation, investments and finance in India.</p></div></section>
