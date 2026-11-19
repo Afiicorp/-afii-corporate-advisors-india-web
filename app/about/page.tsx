@@ -1,0 +1,15 @@
+import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "About AFII Corporate Advisors", description: "AFII's India operations, established investment practice and infrastructure advisory expertise." };
+const milestones = [
+ { year: "1996", title: "The foundation", text: "AFII was founded to manage proprietary investments and establish its investment-management activities." },
+ { year: "2001", title: "Expansion into advisory", text: "The firm reorganised to provide infrastructure and real estate financial advisory services." },
+ { year: "Today", title: "India and international advisory", text: "From New Delhi, AFII Corporate Advisors works with public enterprises, developers and financial institutions across infrastructure and investment activities." }
+];
+export default function About() { return <>
+ <section className="v2-page-hero v2-page-hero-light"><div className="shell"><h1>About AFII Corporate Advisors</h1><p>Infrastructure incubation, investments and finance in India.</p></div></section>
+ <section className="v2-section"><div className="shell v2-about-story"><div><h2>Indian expertise. International experience.</h2><p>Founded in 1996, AFII built its practice around proprietary investments before expanding into infrastructure and real estate financial advisory in 2001.</p><p>The firm has developed structured trade finance products, advised infrastructure companies on equity and debt structures, and supported the participation of global public enterprises in Indian infrastructure development.</p><Link href="/expertise" className="v2-inline-link">Our expertise <span aria-hidden="true">→</span></Link></div><div className="v2-about-photo"><Image src="/media/v3/about-india.jpg" alt="Indian business and infrastructure district" fill sizes="(max-width:800px) 100vw, 45vw" /></div></div></section>
+ <section className="v4-history-section"><div className="shell v4-history-layout"><div className="v4-history-heading"><h2>How AFII developed</h2><p>From investment management to an established advisory practice in infrastructure and real assets.</p></div><div className="v4-history-timeline">{milestones.map(x => <article className="v4-history-event" key={x.year}><div className="v4-history-year">{x.year}</div><div><h3>{x.title}</h3><p>{x.text}</p></div></article>)}</div></div></section>
+ <section className="v2-section"><div className="shell v2-standard-split"><h2>Public–Public Partnership (PuP)</h2><div><p>AFII has advocated Public–Public Partnership models for infrastructure development, engaging public enterprises, local governments and institutional partners.</p><p>Its project-incubation work brings together international capabilities and local priorities, helping develop programmes across infrastructure and essential public services.</p><Link href="/approach" className="v2-inline-link">Our approach <span aria-hidden="true">→</span></Link></div></div></section>
+ </>; }

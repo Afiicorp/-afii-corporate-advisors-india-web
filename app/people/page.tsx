@@ -1,0 +1,6 @@
+import Link from "next/link";
+import type {Metadata} from "next";
+import ProfilePortrait from "@/components/ProfilePortrait";
+import {people} from "@/lib/site";
+export const metadata:Metadata={title:"People & Representatives",description:"Published India leadership and selected international AFII Group representatives."};
+export default function People(){return <><section className="v2-page-hero"><div className="shell"><h1>People & representatives</h1><p>Selected leaders and network representatives from AFII's published team information.</p></div></section><section className="v2-section"><div className="shell"><h2>India</h2><div className="v2-profile-grid">{people.filter(p=>p.group==="India").map(p=><article key={p.name} className="v2-profile"><ProfilePortrait name={p.name} image={p.image}/><h3>{p.name}</h3><p>{p.role}</p><small>{p.place}</small></article>)}</div></div></section><section className="v2-section v2-soft"><div className="shell"><h2>International network</h2><div className="v2-profile-grid">{people.filter(p=>p.group!=="India").map(p=><article key={p.name} className="v2-profile"><ProfilePortrait name={p.name} image={p.image}/><h3>{p.name}</h3><p>{p.role}</p><small>{p.place}</small></article>)}</div><Link href="/offices" className="v2-inline-link">See the global office network <span>→</span></Link></div></section></>}

@@ -1,0 +1,186 @@
+[
+  {
+    "name": "service-infrastructure",
+    "photo_id": "1705316640934-95a3c19c53d6",
+    "purpose": "Highway construction / infrastructure project appraisal",
+    "source": "https://unsplash.com/photos/an-aerial-view-of-a-highway-and-a-large-body-of-water-OonZSa_ME6s",
+    "url": "https://images.unsplash.com/photo-1705316640934-95a3c19c53d6?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/service-infrastructure.jpg"
+  },
+  {
+    "name": "service-finance",
+    "photo_id": "1758876020300-76a782ca51c6",
+    "purpose": "Financial-document review and structuring",
+    "source": "https://unsplash.com/photos/man-in-office-reviewing-documents-at-desk-documents-cX62K66gMUk",
+    "url": "https://images.unsplash.com/photo-1758876020300-76a782ca51c6?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/service-finance.jpg"
+  },
+  {
+    "name": "service-incubation",
+    "photo_id": "1764449321624-913ca52646c6",
+    "purpose": "Construction site / early-stage project development",
+    "source": "https://unsplash.com/photos/construction-site-with-cranes-and-a-bridge-overhead-mQZqxPP6rkQ",
+    "url": "https://images.unsplash.com/photo-1764449321624-913ca52646c6?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/service-incubation.jpg"
+  },
+  {
+    "name": "service-bid",
+    "photo_id": "1758611972678-bc3b29b4718f",
+    "purpose": "Professional document and bid review",
+    "source": "https://unsplash.com/photos/two-colleagues-reviewing-documents-at-an-office-desk-zQXdDfmkevA",
+    "url": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/service-bid.jpg"
+  },
+  {
+    "name": "service-public",
+    "photo_id": "1792092963632-e0a1000e4e99",
+    "purpose": "India Gate / public institution context",
+    "source": "https://unsplash.com/photos/india-gate-monument-in-new-delhi-szx7jO2sKHQ",
+    "url": "https://images.unsplash.com/photo-1792092963632-e0a1000e4e99?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/service-public.jpg"
+  },
+  {
+    "name": "industry-transport",
+    "photo_id": "1746593934500-ec244af415b6",
+    "purpose": "Urban metro elevated infrastructure",
+    "source": "https://unsplash.com/photos/elevated-train-track-stretches-into-the-sky-DSWUXd_qXr0",
+    "url": "https://images.unsplash.com/photo-1746593934500-ec244af415b6?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/industry-transport.jpg"
+  },
+  {
+    "name": "industry-energy",
+    "photo_id": "1677137264629-5dab16c48d16",
+    "purpose": "Solar farm / renewable power",
+    "source": "https://unsplash.com/photos/a-photo-of-a-solar-farm-with-mountains-in-the-background-MyfJWbVzeWM",
+    "url": "https://images.unsplash.com/photo-1677137264629-5dab16c48d16?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/industry-energy.jpg"
+  },
+  {
+    "name": "industry-water",
+    "photo_id": "1741197185682-b6c3906f9ff4",
+    "purpose": "Aerial water treatment facility",
+    "source": "https://unsplash.com/photos/aerial-view-of-a-large-water-treatment-facility-yj8uKiyS7tI",
+    "url": "https://images.unsplash.com/photo-1741197185682-b6c3906f9ff4?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/industry-water.jpg"
+  },
+  {
+    "name": "industry-manufacturing",
+    "photo_id": "1764835994645-3faa2c40f708",
+    "purpose": "Manufacturing facility and machinery",
+    "source": "https://unsplash.com/photos/industrial-machinery-in-a-large-factory-setting-mMgC9U15XR0",
+    "url": "https://images.unsplash.com/photo-1764835994645-3faa2c40f708?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/industry-manufacturing.jpg"
+  },
+  {
+    "name": "industry-urban",
+    "photo_id": "1768226370675-b4094605afdf",
+    "purpose": "Urban development / building in progress",
+    "source": "https://unsplash.com/photos/building-under-construction-with-cranes-and-scaffolding-3dluuiuTPCg",
+    "url": "https://images.unsplash.com/photo-1768226370675-b4094605afdf?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/industry-urban.jpg"
+  },
+  {
+    "name": "industry-aviation",
+    "photo_id": "1773734884935-c8a285a313c9",
+    "purpose": "Modern airport passenger terminal",
+    "source": "https://unsplash.com/photos/modern-airport-terminal-with-large-windows-and-seating-Jw5c-TqQ1vM",
+    "url": "https://images.unsplash.com/photo-1773734884935-c8a285a313c9?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/industry-aviation.jpg"
+  },
+  {
+    "name": "deal-jaipur",
+    "photo_id": "1741526997969-f1fe50a89e15",
+    "purpose": "India national highway, illustrative not Jaipur Ring Road",
+    "source": "https://unsplash.com/photos/aerial-view-of-a-road-through-a-rural-area-j2i6Uru5Aj0",
+    "url": "https://images.unsplash.com/photo-1741526997969-f1fe50a89e15?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-jaipur.jpg"
+  },
+  {
+    "name": "deal-lalitpur",
+    "photo_id": "1787985521816-1187c6ae4731",
+    "purpose": "Industrial power plant, illustrative not Lalitpur",
+    "source": "https://unsplash.com/photos/industrial-power-plant-with-tall-chimney-VeeqWPBFIHc",
+    "url": "https://images.unsplash.com/photo-1787985521816-1187c6ae4731?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-lalitpur.jpg"
+  },
+  {
+    "name": "deal-rajasthan",
+    "photo_id": "1533163238111-4a7ced54f2e4",
+    "purpose": "Water treatment tanks, illustrative not Rajasthan project",
+    "source": "https://unsplash.com/photos/water-treatment-tanks-from-above-6wSevhW1Dzc",
+    "url": "https://images.unsplash.com/photo-1533163238111-4a7ced54f2e4?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-rajasthan.jpg"
+  },
+  {
+    "name": "deal-haryana",
+    "photo_id": "1774789599304-cca1e1ffbb95",
+    "purpose": "Aerial sewage treatment plant, illustrative not Haryana project",
+    "source": "https://unsplash.com/photos/aerial-view-of-a-water-treatment-plant-with-surrounding-fields-T-q7fVaJgHA",
+    "url": "https://images.unsplash.com/photo-1774789599304-cca1e1ffbb95?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-haryana.jpg"
+  },
+  {
+    "name": "deal-railway",
+    "photo_id": "1782072712743-dc3aaccfbca3",
+    "purpose": "Railway station redevelopment, illustrative",
+    "source": "https://unsplash.com/photos/modern-train-station-with-tracks-platforms-and-historic-building-ZJjSBN5MLEM",
+    "url": "https://images.unsplash.com/photo-1782072712743-dc3aaccfbca3?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-railway.jpg"
+  },
+  {
+    "name": "deal-dfcc",
+    "photo_id": "1773652966382-668b2eb3f369",
+    "purpose": "Freight train and logistics, illustrative",
+    "source": "https://unsplash.com/photos/orange-shipping-containers-on-a-train-at-a-port-sCe5OPed9Vk",
+    "url": "https://images.unsplash.com/photo-1773652966382-668b2eb3f369?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-dfcc.jpg"
+  },
+  {
+    "name": "deal-paper",
+    "photo_id": "1764114441123-586d13fc6ece",
+    "purpose": "Industrial fabrication workshop, illustrative",
+    "source": "https://unsplash.com/photos/industrial-workshop-with-lathe-and-metal-shavings-utNqAnoLEaQ",
+    "url": "https://images.unsplash.com/photo-1764114441123-586d13fc6ece?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-paper.jpg"
+  },
+  {
+    "name": "deal-metro",
+    "photo_id": "1764017066822-a631ee7d4040",
+    "purpose": "Urban railway station architecture, illustrative",
+    "source": "https://unsplash.com/photos/modern-train-station-with-elevated-walkway-and-tracks-CcAsGoQnZX8",
+    "url": "https://images.unsplash.com/photo-1764017066822-a631ee7d4040?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-metro.jpg"
+  },
+  {
+    "name": "deal-nhai",
+    "photo_id": "1764313212362-6275f31216e4",
+    "purpose": "Highway interchange, illustrative not NHAI corridor",
+    "source": "https://unsplash.com/photos/aerial-view-of-a-highway-interchange-with-cars-APYv2YEF9h0",
+    "url": "https://images.unsplash.com/photo-1764313212362-6275f31216e4?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-nhai.jpg"
+  },
+  {
+    "name": "deal-sasan",
+    "photo_id": "1764507671955-8e33ff6c2b99",
+    "purpose": "Thermal power plant, illustrative not Sasan",
+    "source": "https://unsplash.com/photos/industrial-power-plant-with-smoking-chimney-and-towers-iMUP9Ord2CU",
+    "url": "https://images.unsplash.com/photo-1764507671955-8e33ff6c2b99?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/deal-sasan.jpg"
+  },
+  {
+    "name": "about-india",
+    "photo_id": "1774069129040-05a274355383",
+    "purpose": "India modern city business district aerial",
+    "source": "https://unsplash.com/photos/modern-cityscape-with-illuminated-buildings-and-highway-at-dusk-tv2S2NIH_3w",
+    "url": "https://images.unsplash.com/photo-1774069129040-05a274355383?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/about-india.jpg"
+  },
+  {
+    "name": "approach-planning",
+    "photo_id": "1764231467852-b609a742e082",
+    "purpose": "Document signing / formal project planning",
+    "source": "https://unsplash.com/photos/hands-signing-a-document-on-a-desk-WTgGFO_gGW8",
+    "url": "https://images.unsplash.com/photo-1764231467852-b609a742e082?fit=crop&fm=jpg&w=1920&q=84",
+    "dest": "public/media/v3/approach-planning.jpg"
+  }
+]

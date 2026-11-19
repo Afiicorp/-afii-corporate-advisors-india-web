@@ -1,0 +1,8 @@
+"use client";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+export default function HeroFilm(){const ref=useRef<HTMLVideoElement>(null),[playing,setPlaying]=useState(true),[failed,setFailed]=useState(false);
+ useEffect(()=>{if(window.matchMedia("(prefers-reduced-motion: reduce)").matches){ref.current?.pause();setPlaying(false)}},[]);
+ const toggle=async()=>{if(!ref.current)return;if(ref.current.paused){try{await ref.current.play();setPlaying(true)}catch{setPlaying(false)}}else{ref.current.pause();setPlaying(false)}};
+ return <section className="v2-hero" aria-labelledby="home-hero-title"><video ref={ref} className="v2-hero-video" muted loop autoPlay playsInline preload="metadata" poster="/media/v3/hero-poster.webp" onError={()=>setFailed(true)} aria-hidden="true"><source src="/media/v3/hero-motion.mp4" type="video/mp4"/></video><div className="v2-hero-cover"/><div className="shell v2-hero-inside"><div className="v2-hero-text"><p className="v2-hero-location">India • AFII Corporate Advisors Limited</p><h1 id="home-hero-title">Infrastructure and investment advisory for India.</h1><p className="v2-hero-sub">Project incubation, financial structuring and institutional partnerships for complex infrastructure opportunities.</p><div className="v2-hero-actions"><Link className="v2-button-gold" href="/expertise">Our expertise <span aria-hidden="true">→</span></Link><Link className="v2-hero-outline" href="/group">AFII Group <span aria-hidden="true">→</span></Link></div></div></div><div className="v2-hero-controls shell"><span>AFII Corporate Advisors · New Delhi</span><button type="button" onClick={toggle} disabled={failed}>{failed?"Static image":playing?"Pause video Ⅱ":"Play video ▶"}</button></div></section>;
+}

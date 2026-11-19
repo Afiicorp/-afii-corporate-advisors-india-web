@@ -1,0 +1,8 @@
+import Image from "next/image";
+import Link from "next/link";
+import type {Metadata} from "next";
+import {notFound} from "next/navigation";
+import {services} from "@/lib/site";
+export async function generateStaticParams(){return services.map(s=>({slug:s.slug}))}
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const {slug}=await params;const s=services.find(x=>x.slug===slug);return {title:s?.name||"Expertise",description:s?.brief}}
+export default async function Service({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const s=services.find(x=>x.slug===slug);if(!s)notFound();return <><section className="v2-page-hero v2-page-hero-light"><div className="shell"><Link href="/expertise" className="v2-back">← All expertise</Link><h1>{s.name}</h1><p>{s.brief}</p></div></section><div className="v2-detail-banner"><Image src={s.image} alt={`${s.name}`} fill sizes="100vw"/></div><section className="v2-section"><div className="shell v2-standard-split"><h2>Practice overview</h2><div><p>{s.intro}</p><h3>Areas of work</h3><ul className="v2-bullet-list">{s.what.map(x=><li key={x}>{x}</li>)}</ul><Link href="/contact" className="v2-button-navy">Discuss this practice <span>→</span></Link></div></div></section><section className="v2-section v2-soft"><div className="shell"><div className="v2-section-top"><h2>Other expertise</h2><Link href="/expertise" className="v2-more">All practices →</Link></div><div className="v2-related-services v4-related-services">{services.filter(x=>x.slug!==s.slug).slice(0,3).map(x=><Link key={x.slug} href={`/expertise/${x.slug}`}><h3>{x.name}</h3><p>{x.brief}</p><span>Read more →</span></Link>)}</div></div></section></>}

@@ -1,0 +1,5 @@
+import type {Metadata} from "next";
+import Link from "next/link";
+import TransactionBrowser from "@/components/TransactionBrowser";
+export const metadata:Metadata={title:"Transactions",description:"Selected published AFII India transaction and infrastructure advisory references, with project filters and individual detail pages."};
+export default function Transactions(){return <><section className="v2-page-hero v2-page-hero-light"><div className="shell"><h1>Transactions</h1><p>Selected published examples of project and advisory work across sectors and geographies.</p></div></section><section className="v2-section"><div className="shell"><TransactionBrowser/><div className="v2-archive-inline"><div><h2>Original published material</h2><p>AFII's original website also retains 48 historical transaction presentation slides, available for detailed reference.</p></div><Link href="/transaction-archive" className="v2-inline-link">View the original slides <span>→</span></Link></div></div></section></>}
