@@ -278,3 +278,98 @@ label.v5-cookie-category{cursor:pointer}
 .v3-office-card-link:hover{text-decoration:underline;text-underline-offset:4px;color:#153e62}
 .v3-office-card-link:focus-visible{outline:2px solid #325d83;outline-offset:4px}
 @media(max-width:700px){.v6-gallery-link{display:block}.v6-gallery-link .v2-inline-link{display:inline-block;margin-top:14px}}
+
+/* AFII Corporate Advisors V7 — complete film first, scroll-revealed existing hero copy.
+   Utility bar (33px) + unchanged sticky header (81px) = initial film viewport. */
+.v7-hero-scroll {
+  position: relative;
+  height: 230svh;
+  background: #050c18;
+  isolation: isolate;
+}
+.v7-hero-stage.v2-hero {
+  position: sticky;
+  top: 81px;
+  height: calc(100svh - 114px);
+  min-height: 0;
+  max-height: none;
+  overflow: hidden;
+  background: #050c18;
+  color: #fff;
+  z-index: 1;
+}
+.v7-hero-stage .v7-hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Important: display whole supplied video, never crop the frame */
+  object-position: 50% 50%;
+  filter: none;
+  background: #050c18;
+}
+.v7-hero-stage .v7-hero-shade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(4, 17, 35, .88) 0%, rgba(5, 19, 38, .72) 44%, rgba(5, 18, 34, .13) 100%), linear-gradient(0deg, rgba(3, 13, 28, .32), transparent 35%);
+  opacity: var(--v7-reveal, 0);
+  z-index: 1;
+}
+.v7-hero-stage .v7-hero-copy {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  width: min(var(--shell), calc(100% - 112px));
+  padding-block: 24px 72px;
+  margin-inline: auto;
+  opacity: var(--v7-reveal, 0);
+  transform: translate3d(0, var(--v7-rise, 105px), 0);
+  pointer-events: none;
+  z-index: 2;
+  will-change: transform, opacity;
+}
+.v7-hero-stage .v7-hero-copy:not([inert]) { pointer-events: auto; }
+.v7-hero-stage .v7-hero-copy h1 { max-width: 750px; }
+.v7-hero-stage .v7-hero-controls {
+  position: absolute;
+  right: clamp(16px, 3vw, 55px);
+  bottom: 20px;
+  z-index: 3;
+}
+.v7-film-toggle {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255,255,255,.58);
+  border-radius: 50%;
+  background: rgba(5, 18, 34, .28);
+  color: white;
+  cursor: pointer;
+  transition: background .16s ease, border-color .16s ease;
+}
+.v7-film-toggle:hover,.v7-film-toggle:focus-visible { background: rgba(5,18,34,.78); border-color:#fff; }
+.v7-film-toggle:focus-visible { outline: 3px solid #e9c485; outline-offset: 3px; }
+.v7-film-toggle:disabled { cursor: not-allowed; opacity: .6; }
+@media(max-width: 900px) {
+  .v7-hero-stage .v7-hero-copy { width: calc(100% - 76px); }
+}
+@media(max-width: 720px) {
+  .v7-hero-scroll { height: 220svh; }
+  .v7-hero-stage.v2-hero { top: 70px; height: calc(100svh - 102px); min-height: 0; }
+  .v7-hero-stage .v7-hero-copy { width: calc(100% - 36px); padding: 16px 0 58px; }
+  .v7-hero-stage .v7-hero-copy h1 { font-size: clamp(32px, 8.2vw, 48px); line-height: 1.08; }
+  .v7-hero-stage .v2-hero-location { font-size: 10px; letter-spacing: .085em; margin-bottom: 12px; }
+  .v7-hero-stage .v2-hero-sub { font-size: clamp(14px, 3.8vw, 17px); line-height: 1.42; margin-bottom: 18px; }
+  .v7-hero-stage .v2-hero-actions { gap: 10px; }
+  .v7-hero-stage .v7-hero-controls { bottom: 12px; right: 16px; }
+}
+@media(max-height: 650px) and (min-width: 721px) {
+  .v7-hero-stage .v7-hero-copy h1 { font-size: clamp(35px, 4vw, 60px); }
+  .v7-hero-stage .v7-hero-copy { padding-bottom: 38px; }
+}
+@media(prefers-reduced-motion: reduce) {
+  /* Suppress transitions, but leave the supplied film's first frame visible. */
+  .v7-hero-stage .v7-hero-video { display: block; }
+  .v7-film-toggle { transition: none; }
+}
