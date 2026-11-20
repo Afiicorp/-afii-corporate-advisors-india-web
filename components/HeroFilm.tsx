@@ -16,6 +16,7 @@ export default function HeroFilm() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [progress, setProgress] = useState(0);
   const [enhanced, setEnhanced] = useState(false);
+  const [soundOn, setSoundOn] = useState(false);
   const [playing, setPlaying] = useState(true);
   const [failed, setFailed] = useState(false);
 
@@ -77,13 +78,24 @@ export default function HeroFilm() {
     }
   };
 
+  const toggleHeroSound = () => {
+    const video = videoRef.current;
+    if (!video) return;
+    const enable = video.muted;
+    video.muted = !enable;
+    video.volume = 1;
+    setSoundOn(enable);
+    if (enable && video.paused) {
+      void video.play().catch(() => {});
+    }
+  };
   return (
     <section ref={trackRef} className="v7-hero-scroll" aria-label="AFII Corporate Advisors India introduction">
       <div ref={stageRef} className="v2-hero v7-hero-stage" style={visualStyle}>
         <video
           ref={videoRef}
           className="v2-hero-video v7-hero-video"
-          muted
+          muted={!soundOn}
           autoPlay
           loop
           playsInline
@@ -95,6 +107,27 @@ export default function HeroFilm() {
         >
           <source src="/media/Hero_Video_afiicorp.mp4" type="video/mp4" />
         </video>
+        <button
+          type="button"
+          onClick={toggleHeroSound}
+          aria-pressed={soundOn}
+          style={{
+            position: "absolute",
+            right: "calc(clamp(16px, 3vw, 55px) + 52px)",
+            bottom: 20,
+            zIndex: 5,
+            padding: "11px 16px",
+            background: "rgba(5,18,34,.85)",
+            border: "1px solid rgba(255,255,255,.7)",
+            borderRadius: 24,
+            color: "#fff",
+            fontSize: 13,
+            fontWeight: 700,
+            cursor: "pointer"
+          }}
+        >
+          {soundOn ? "Mute sound" : "Enable sound"}
+        </button>
         <div className="v7-hero-shade" aria-hidden="true" />
         <div className="v7-hero-copy shell" aria-hidden={!readyToInteract} inert={!readyToInteract}>
           <div className="v2-hero-text">
