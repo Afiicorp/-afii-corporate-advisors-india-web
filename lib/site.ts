@@ -51,7 +51,7 @@ export type NetworkPresence = {
   mapAddress?: string;
 };
 export const networkPresences: NetworkPresence[] = [
-  {place:"New Delhi",country:"India",detail:"AFII Corporate Advisors Limited · India office",contact:"Vinit Vidyarthi · Head of India Business; K. Aakash · Representative Director",address:"Madam Sara Mathew Lane, B1/14 Safdarjung Enclave, New Delhi 110029, India",mapAddress:"B1/14 Safdarjung Enclave, New Delhi 110029, India",type:"India office"},
+  {place:"New Delhi",country:"India",detail:"AFII Corporate Advisors Limited · India office",contact:"Vinit Vidyarthi · Head of India Business; K. Aakash · Director",address:"Madam Sara Mathew Lane, B1/14 Safdarjung Enclave, New Delhi 110029, India",mapAddress:"B1/14 Safdarjung Enclave, New Delhi 110029, India",type:"India office"},
   {place:"Mumbai",country:"India",detail:"Infrastructure advisory",contact:"Abhijit K. Avarsekar · Senior Advisor, Infrastructure",address:"The A-Club, Suite W4, One IndiaBulls, Tower 2A, 8th Floor, Lower Parel, Mumbai 400013, India",mapAddress:"One IndiaBulls Tower 2A, Lower Parel, Mumbai 400013, India",type:"India office"},
   {place:"Frankfurt / Eschborn",country:"Germany",detail:"AFII Structured Finance GmbH",contact:"Dr. Mahesh M. Gandhi; Kirti Gulati",address:"Alfred-Herrhausen-Allee 3-5, 65760 Eschborn, Germany",mapAddress:"Alfred-Herrhausen-Allee 3-5, 65760 Eschborn, Germany",type:"International office"},
   {place:"London",country:"United Kingdom",detail:"AFII Capital Partners Limited",contact:"AFII UK team",address:"Kemp House, 124-128 City Road, London EC1V 2NX, United Kingdom",mapAddress:"Kemp House, 124-128 City Road, London EC1V 2NX, UK",type:"International office"},
@@ -66,7 +66,7 @@ export const people = [
   {name:"Vinit Vidyarthi",role:"Head of India Business",place:"New Delhi",image:"/media/people/vinit-vidyarthi.jpeg",group:"India"},
   {name:"Abhijit K. Avarsekar",role:"Senior Advisor · Infrastructure",place:"Mumbai",image:"/media/people/abhijit-avar-sekar.png",group:"India"},
   {name:"Punam Bhasin",role:"Director — AFII Corp (India)",place:"India",image:"/media/people/punam-bhasin.jpg",group:"India"},
-  {name:"K. Aakash",role:"Representative Director — India",place:"New Delhi",image:"/media/people/kumar-aakash.png",group:"India"},
+  {name:"K. Aakash",role:"Director",place:"New Delhi",image:"/media/people/kumar-aakash.png",group:"India"},
   {name:"Dr. Mahesh M. Gandhi",role:"Managing Director & President",place:"Frankfurt",image:"/media/people/mahesh-gandhi.png",group:"International network"},
   {name:"Kirti Gulati",role:"Managing Director & Vice President",place:"Frankfurt / UAE",image:"/media/people/kirti-gulati.jpg",group:"International network"},
   {name:"Sidhartha S. Gandhi",role:"Government Advisory & Infrastructure Development",place:"India",image:"/media/people/sidhartha-gandhi.jpeg",group:"International network"},
